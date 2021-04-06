@@ -4,6 +4,8 @@
 
 当我们使用`www.google.com`默认搜索的时候也会根据地区自动重定向跳转到`wwww.google.com.hk`，安全搜索会导致很多时候我们需要搜索的内容并不能查询到。我今天也遇到了这个情况，于是记录以下解决方案
 
+## 解决方案
+
 1. 通过`www.google.com/ncr`（ncr：No Country Redirection 不进行国家区域重定向）跳转至对应搜索页
 
 
