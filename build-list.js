@@ -12,7 +12,7 @@ async function writeListToMarkdown(list) {
   let str = '# Tips\n\n'
 
   list.forEach((fileName, index) => {
-    str += `- [${index+1}-${fileName}](./${fileName})\n`
+    str += `- [${index+1}-${fileName}](./tips/${fileName})\n`
   })
 
   fs.writeFileSync('./README.md', str)
