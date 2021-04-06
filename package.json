@@ -1,0 +1,22 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "description": "- [1-Chrome特殊URL.md](./Chrome特殊URL.md) - [2-关闭Chrome安全搜索.md](./关闭Chrome安全搜索.md)",
+  "main": "build-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenWG95/Tips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenWG95/Tips/issues"
+  },
+  "homepage": "https://github.com/ChenWG95/Tips#readme",
+  "dependencies": {
+    "husky": "^6.0.0"
+  }
+}
